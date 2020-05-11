@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+/*Menu li*/
+.noti{
+	background-image:url(../images/noticias.png);
+	background-repeat:no-repeat;
+	margin-left:20px;
+}
+.biog{
+	background-image:url(../images/biografia.png);
+	background-repeat:no-repeat;
+	margin-left:15px;
+}
+.diaspo{
+	background-image:url(../images/diasporas2.png);
+	background-repeat:no-repeat;
+	margin-left:30px;
+}
+.contac{
+	background-image:url(../images/contacto.png);
+	background-repeat:no-repeat;
+}
+.dsolista{
+	background-image:url(../images/solista.png);
+	background-repeat:no-repeat;
+	margin-left:40px;
+}
+
+#cd1{
+	margin:auto;
+	width:600px;
+	height:700px;
+}
+#cd1title{
+	width:600px;
+	height:40px;
+	padding-top:40px;
+	padding-bottom:10px;
+}
+h1{
+	font-size:22px;
+	font-weight:bold;
+	text-align:center;
+}
+h1 a{
+	color:#CCCCCC;
+	text-decoration:none;
+}
+h1 a:hover{
+	color:#FFFFFF;
+}
+#tapacd1{
+	background-image:url(../images/contratapa320bn.jpg);
+	height:240px;
+	width:280px;
+	float:left;
+}
+#tapacd2{
+	background-image:url(../images/tapacd2320bn.jpg);
+	height:240px;
+	width:280px;
+	float:left;
+}
+#cd1musica{
+	width:300px;
+	height:242px;
+	float:left;
+	margin-left:20px;
+}
+#creditos1{
+	clear:left;
+	height:390px;
+}
+h2{
+	padding-top:20px;
+	padding-bottom:28px;
+	font-size:12px;
+	text-align:center;
+}
+h2 a{
+	color:#CCCCCC;
+	text-decoration:none;
+}
+h2 a:hover{
+	color:#FFFFFF;
+}
+h3{
+	font-size:16px;
+	padding-top:12px;
+	padding-bottom:10px;
+	font-weight:bold;
+}
+p{
+	font-size:14px;
+	line-height:20px;
+}
+.bolde{
+	font-weight:bold;
+}
+#main{
+	clear:left;
+	height:705px;
+}

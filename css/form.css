@@ -1,0 +1,67 @@
+/*Menu li*/
+.noti{
+	background-image:url(../images/noticias.png);
+	background-repeat:no-repeat;
+	margin-left:20px;
+}
+.biog{
+	background-image:url(../images/biografia.png);
+	background-repeat:no-repeat;
+	margin-left:15px;
+}
+.diaspo{
+	background-image:url(../images/diasporas.png);
+	background-repeat:no-repeat;
+	margin-left:30px;
+}
+.contac{
+	background-image:url(../images/contacto2.png);
+	background-repeat:no-repeat;
+}
+.dsolista{
+	background-image:url(../images/solista.png);
+	background-repeat:no-repeat;
+	margin-left:40px;
+}
+
+#formulario{
+/*	background-color:#00CCCC;*/
+	margin:auto;
+	color:#CCCCCC;
+	font-size:18px;
+	width:300px;
+	height:600px;
+	padding-top:50px;
+}
+.ftext{
+}
+.txtarea{
+	color: #CCCCCC;
+	background-color:#333;
+	font-size:16px;
+	width:290px;
+	margin-top:10px;
+	margin-bottom:20px;
+	padding:4px;
+}
+.btn{
+	color:#CCCCCC;
+	background-color:#333;
+	font-size:14px;
+	width:65px;
+	height:28px;
+	margin-top:15px;
+	margin-left:40px;	
+}
+.btnreset{
+	color:#CCCCCC;
+	background-color:#333;
+	font-size:14px;
+	width:65px;
+	height:28px;
+	margin-left:85px;
+}
+#main{
+	clear:left;
+	height:570px;
+}

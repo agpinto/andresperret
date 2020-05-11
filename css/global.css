@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0px;margin:0px;color:#CCCCCC;}
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	background-image:url(../images/bg.jpg);
+	background-position:center top;
+	background-repeat:repeat;
+	background-color:#000000;
+}
+#header{
+	height:130px;
+	background-image:url(../images/header.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	/*
+	font: Segoe Print
+	weight: bold
+	size: 72
+	height: 100
+	*/
+}
+#header,#menu,#main{
+	margin:auto;
+	width:840px;
+}
+#menu li{
+	width:142px;
+	height:32px;
+	list-style-type:none;
+	float:left;
+}
+#menu a{
+	text-decoration:none;
+}
+#footer{
+	width:400px;
+	height:71px;
+	margin:auto;
+	padding-left:50px;
+	padding-top:15px;
+	color:#CCCCCC;
+}
+#youtube,#facebook,#youtubelv{
+	float:left;
+	height:55px;
+	padding-left:80px;
+}
+#twitter{
+	margin-left:58px;
+	margin-right:3px;
+	float:left;
+	height:50px;
+}
+#soundcloud{
+	float:left;
+	height:50px;
+	width:50px;
+	padding-left:80px;
+}
+#youtube, #facebook, #youtubelv{
+	margin-left:10px;
+}
+#footer3 a, #footer4 a, #footer5 a{
+	text-decoration:none;
+	color:#CCC;
+}
+#footer3 a:hover,#footer4 a:hover,#footer5 a:hover{
+	color:#FFF;
+}
+#footer3{
+	float:left;
+	margin-left:20px;
+	width:125px;
+	height:16px;
+	font-size:12px;
+}
+#footer4{
+	float:left;
+	width:145px;
+	height:16px;
+	font-size:12px;
+}
+#footer5{
+	float:left;
+	width:50px;
+	height:16px;
+	font-size:12px;
+}

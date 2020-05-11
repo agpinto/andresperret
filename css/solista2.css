@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+/*Menu li*/
+.noti{
+	background-image:url(../images/noticias.png);
+	background-repeat:no-repeat;
+	margin-left:20px;
+}
+.biog{
+	background-image:url(../images/biografia.png);
+	background-repeat:no-repeat;
+	margin-left:15px;
+}
+.diaspo{
+	background-image:url(../images/diasporas.png);
+	background-repeat:no-repeat;
+	margin-left:30px;
+}
+.contac{
+	background-image:url(../images/contacto.png);
+	background-repeat:no-repeat;
+}
+.dsolista{
+	background-image:url(../images/solista2.png);
+	background-repeat:no-repeat;
+	margin-left:40px;
+}
+
+
+#cd1,#cd2,#cd3,#tapacd1,#tapacd2,#tapacd3,#cd1_txt,#cd2_txt,#cd3_txt,#cd4,#tapacd4,#cd4_txt, #cd5, #tapacd5, #cd5_txt{
+	float:left;
+}
+#tapacd1,#tapacd2,#tapacd3,#tapacd4,#tapacd5{
+	height:247px;
+	width:260px;
+}
+#tapacd1{
+	background-image:url(../images/tapacd1320.jpg);
+}
+#tapacd2{
+	background-image:url(../images/solistacd2320.jpg);
+	margin-left:30px;
+}
+#tapacd3{
+	background-image:url(../images/tapacd3320.jpg);
+	margin-left:30px;
+}
+#tapacd4{
+	background-image:url(../images/Tapacd4320.jpg);
+}
+#tapacd5{
+	background-image:url(../images/tapa_libre320.jpg);
+	margin-left:30px;
+	margin-right:200px;
+}
+#cd1,#cd2,#cd3,#cd4,#cd5{
+	width:280px;
+	height:40px;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	padding-bottom:10px;
+}
+#cd1,#cd2,#cd3{
+	padding-top:85px;
+}
+#cd4{
+	padding-top:40px;
+	/*padding-right:560px;*/
+	padding-bottom:10px;
+}
+#cd5{
+	padding-top:40px;
+	padding-right:200px;
+	padding-bottom:10px;
+}
+/*#cd1{
+	padding-top:40px;
+	padding-bottom:10px;
+}
+#cd2{
+	padding-top:30px;
+	padding-bottom:10px;
+}*/
+#cd1 a, #cd2 a, #cd3 a,#cd4 a, #cd5 a, #cd1_txt a, #cd2_txt a, #cd3_txt a,#cd4_txt a, #cd5_txt a{
+	color:#CCCCCC;
+	text-decoration:none;
+}
+#cd1 a:hover, #cd2 a:hover,#cd3 a:hover, #cd1_txt a:hover, #cd2_txt a:hover, #cd3_txt a:hover,#cd4_txt a:hover, #cd5_txt a:hover{
+	color:#FFFFFF;
+}
+#main{
+/*	clear:left;*/
+	height:900px;
+}
+#cd1_txt,#cd2_txt,#cd3_txt,#cd4_txt,#cd5_txt{
+	width:280px;
+	margin-top:20px;
+	font-size:10px;
+	font-weight:none;
+	text-align:center;
+}
+/*
+#cd1_txt{
+	text-align:left;
+}
+#cd2_txt{
+	text-align:center;
+}
+#cd3_txt{
+	text-align:right;
+}
+*/
