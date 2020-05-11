@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+/*Menu li*/
+.noti{
+	background-image:url(../images/noticias.png);
+	background-repeat:no-repeat;
+	margin-left:20px;
+}
+.biog{
+	background-image:url(../images/biografia.png);
+	background-repeat:no-repeat;
+	margin-left:15px;
+}
+.diaspo{
+	background-image:url(../images/diasporas.png);
+	background-repeat:no-repeat;
+	margin-left:30px;
+}
+.contac{
+	background-image:url(../images/contacto.png);
+	background-repeat:no-repeat;
+}
+.dsolista{
+	background-image:url(../images/solista2.png);
+	background-repeat:no-repeat;
+	margin-left:40px;
+}
+
+#cd1{
+	margin:auto;
+	width:600px;
+	height:700px;
+}
+#cd1title{
+	width:600px;
+	height:40px;
+	padding-top:40px;
+	padding-bottom:10px;
+}
+h1{
+	font-size:22px;
+	font-weight:bold;
+	text-align:center;
+}
+h1 a{
+	color:#CCCCCC;
+	text-decoration:none;
+}
+h1 a:hover{
+	color:#FFFFFF;
+}
+#tapacd1{
+	background-image:url(../images/contratapa.jpg);
+	height:249px;
+	width:280px;
+	float:left;
+}
+#tapacd2{
+	background-image:url(../images/tapacd1320bn.jpg);
+	height:249px;
+	width:280px;
+	float:left;
+}
+#creditos1{
+	clear:left;
+	height:370px;
+}
+h2{
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:12px;
+	text-align:center;
+}
+h2 a{
+	color:#CCCCCC;
+	text-decoration:none;
+}
+h2 a:hover{
+	color:#FFFFFF;
+}
+h3{
+	font-size:16px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-weight:bold;
+}
+p{
+	font-size:14px;
+	line-height:20px;
+}
+.bolde{
+	font-weight:bold;
+}
+audio{
+	width:222px;
+	background-color:#999999;
+/*	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	moz-border-radius:7px 7px 7px 7px;
+	webkit-border-radius:7px 7px 7px 7px;
+	border-radius:7px 7px 7px 7px;*/
+}
+#reprod{
+	background-color:#000000;
+	width:240px;
+	height:260px;
+	margin-left:30px;
+	float:left;
+	overflow:auto;
+}
+#reprod ul{
+	color:#CCC;
+/*	border-style:solid;
+	border-width:1px;
+	border-color:#FF9900;*/
+}
+#reprod li a{
+	display:block;
+	width:206px;
+	height:20px;
+	padding-left:6px;
+	padding-right:10px;
+	padding-top:2px;
+	background:#333333;
+	color:#999;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+	border-top-color:#F90;
+	border-top-style:dashed;
+	border-top-width:1px;
+}
+#reprod li a:hover{
+	background-color:#666;
+	color:#FFFFFF;
+/*	border-bottom-color:#FCBE30;
+	border-top-color:#FCBE30;*/
+}
+#main{
+	clear:left;
+	height:740px;
+}

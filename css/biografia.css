@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+/*Menu li*/
+.noti{
+	background-image:url(../images/noticias.png);
+	background-repeat:no-repeat;
+	margin-left:20px;
+}
+.biog{
+	background-image:url(../images/biografia2.png);
+	background-repeat:no-repeat;
+	margin-left:15px;
+}
+.diaspo{
+	background-image:url(../images/diasporas.png);
+	background-repeat:no-repeat;
+	margin-left:30px;
+}
+.contac{
+	background-image:url(../images/contacto.png);
+	background-repeat:no-repeat;
+}
+.dsolista{
+	background-image:url(../images/solista.png);
+	background-repeat:no-repeat;
+	margin-left:40px;
+}
+
+#biograf{
+	width:600px;
+	height:1170px;
+	padding-top:40px;
+	margin:auto;
+}
+h1{
+	font-size:20px;
+	padding-top:5px;
+	padding-bottom:15px;
+	text-align:center;
+}
+h2{
+	font-size:18px;
+	padding-top:30px;
+	padding-bottom:10px;
+}
+h3{
+	font-size:14px;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+p{
+	font-size:13px;
+	text-align:justify;
+}
+#main a{
+	color:#CCCCCC;
+	text-decoration:none;
+}
+#main a:hover{
+	color:#FFFFFF;
+}
+.bolde{
+	font-weight:bold;
+}
+.txtr{
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+}
+.poeta{
+	font-size:12px;
+	text-align:justify;
+	line-height:16px;
+}
+#main{
+	clear:left;
+	height:1215px;
+}

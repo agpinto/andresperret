@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0px;margin:0px;color:#CCCCCC;}
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	background-image:url(../images/bg.jpg);
+	background-position:center top;
+	background-repeat:repeat;
+	background-color:#000000;
+}
+#header{
+	height:130px;
+	background-image:url(../images/header.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	/*
+	font: Segoe Print
+	weight: bold
+	size: 72
+	height: 100
+	*/
+}
+#header,#menu,#main{
+	margin:auto;
+	width:840px;
+}
+#menu li{
+	width:142px;
+	height:32px;
+	list-style-type:none;
+	float:left;
+}
+
+#menu a{
+	text-decoration:none;
+}
+#left_main{
+	width:52px;
+	height:470px;
+	margin-left:80px;
+	padding-top:75px;
+	color:#CCCCCC;
+	float:left;
+/*	background-color:#00CC33;*/
+}
+#right_main{
+/*	margin:auto;*/
+	margin-left:40px;
+	width:470px;
+	height:470px;
+	float:left;
+/*	background-color:#CC3399;*/
+}
+#rright_main{
+	width:72px;
+	height:470px;
+	margin-left:50px;
+	padding-top:106px;
+	color:#CCCCCC;
+	float:left;
+/*	background-color:#CC9999;*/
+}
+#youtube, #facebook, #youtubelv{
+	float:left;
+	height:55px;
+}
+#footer2{
+	margin-top:30px;
+	width:52px;
+	height:100px;
+	font-size:12px;
+/*	background-color:#3366CC;*/
+	text-align:center;
+}
+#footer3{
+	width:72px;
+	height:60px;
+	text-align:center;
+	font-size:12px;
+/*	background-color:#9966CC;*/
+}
+#footer4{
+	width:52px;
+	height:100px;
+	font-size:12px;
+	text-align:center;
+/*	background-color:#FFCC33;*/
+}
+#footer5{
+	font-size:12px;
+	text-align:center;
+/*	margin-top:10px;*/
+	width:52px;
+	height:60px;
+/*	background-color:#9966CC;*/
+}
+#footer6{
+	margin-left:10px;
+	margin-top:34px;
+	width:52px;
+	height:60px;
+	font-size:12px;
+	text-align:center;
+/*	background-color:#9966CC;*/
+}
+#youtube, #facebook, #youtubelv{
+/*	margin-left:10px;*/
+}
+#footer3 a, #footer4 a, #footer2 a, #footer5 a, #footer6 a{
+	text-decoration:none;
+	color:#CCC;
+}
+#footer2 a:hover,#footer3 a:hover,#footer4 a:hover,#footer5 a:hover, #footer6 a:hover{
+	color:#FFF;
+}
+#footer{
+	clear:left;
+	width:800px;
+	height:30px;
+	font-size:12px;
+	text-align:center;
+	margin:auto;
+}

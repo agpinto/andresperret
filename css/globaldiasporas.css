@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0px;margin:0px;color:#CCCCCC;}
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	background-image:url(../images/bg.jpg);
+	background-position:center top;
+	background-repeat:repeat;
+	background-color:#000000;
+}
+#header{
+	height:130px;
+	background-image:url(../images/header.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	/*
+	font: Segoe Print
+	weight: bold
+	size: 72
+	height: 100
+	*/
+}
+#header,#menu,#main{
+	margin:auto;
+	width:840px;
+}
+#menu li{
+	width:142px;
+	height:32px;
+	list-style-type:none;
+	float:left;
+}
+#menu a{
+	text-decoration:none;
+}
+#footer{
+	width:500px;
+	height:71px;
+	margin:auto;
+	padding-left:50px;
+	padding-top:15px;
+	color:#CCCCCC;
+}
+#rock,#bandcamp,#youtube,#facebook,#soundcloud{
+	float:left;
+}
+#youtube,#facebook,#soundcloud{
+	height:55px;
+	padding-left:30px;
+}
+#rock{
+	margin-left:10px;
+/*	margin-right:3px;*/
+	height:47px;
+	padding-left:30px;
+}
+#bandcamp{
+	height:47px;
+	width:50px;
+	padding-left:30px;
+}
+#soundcloud{
+	height:50px;
+	width:50px;
+	padding-left:30px;
+}

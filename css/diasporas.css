@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+/*Menu li*/
+.noti{
+	background-image:url(../images/noticias.png);
+	background-repeat:no-repeat;
+	margin-left:20px;
+}
+.biog{
+	background-image:url(../images/biografia.png);
+	background-repeat:no-repeat;
+	margin-left:15px;
+}
+.diaspo{
+	background-image:url(../images/diasporas2.png);
+	background-repeat:no-repeat;
+	margin-left:30px;
+}
+.contac{
+	background-image:url(../images/contacto.png);
+	background-repeat:no-repeat;
+}
+.dsolista{
+	background-image:url(../images/solista.png);
+	background-repeat:no-repeat;
+	margin-left:40px;
+}
+
+
+#cd1,#cd2,#tapacd1,#tapacd2,#cd1_txt,#cd2_txt{
+	float:left;
+}
+#tapacd1,#tapacd2{
+	height:247px;
+	width:280px;
+}
+#tapacd1{
+	background-image:url(../images/tapa320.jpg);
+	margin-left:70px;
+}
+#tapacd2{
+	background-image:url(../images/tapacd2320.jpg);
+	margin-left:140px;
+}
+#cd1,#cd2{
+	width:420px;
+	height:40px;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:85px;
+	padding-bottom:10px;
+}
+/*#cd1{
+	padding-top:40px;
+	padding-bottom:10px;
+}
+#cd2{
+	padding-top:30px;
+	padding-bottom:10px;
+}*/
+#cd1 a, #cd2 a, #cd1_txt a, #cd2_txt a{
+	color:#CCCCCC;
+	text-decoration:none;
+}
+#cd1 a:hover, #cd2 a:hover, #cd1_txt a:hover, #cd2_txt a:hover{
+	color:#FFFFFF;
+}
+#main{
+/*	clear:left;*/
+	height:570px;
+}
+#cd1_txt,#cd2_txt{
+	width:420px;
+	margin-top:20px;
+	font-size:12px;
+	font-weight:none;
+	text-align:center;
+}
