@@ -4,7 +4,7 @@
 .noti{
 	background-image:url(../images/noticias.png);
 	background-repeat:no-repeat;
-	margin-left:20px;
+	margin-left:280px;
 }
 .biog{
 	background-image:url(../images/biografia.png);
@@ -68,7 +68,7 @@
 }
 #main{
 /*	clear:left;*/
-	height:570px;
+	height:510px;
 }
 #cd1_txt,#cd2_txt{
 	width:420px;
@@ -76,4 +76,15 @@
 	font-size:12px;
 	font-weight:none;
 	text-align:center;
+}
+#biografia_diasporas{
+	width:650px;
+	height:200px;
+	padding-top:0px;
+	text-align:justify;
+	margin:auto;
+	line-height: 1.6;
+}
+p{
+	font-size:14px;
 }
